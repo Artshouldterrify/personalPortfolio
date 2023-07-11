@@ -1,2 +1,2 @@
 # personalPortfolio
-A personal portfolio built using HTML, CSS and JavaScript.
+A simple personal portfolio built using HTML, CSS and JavaScript.
