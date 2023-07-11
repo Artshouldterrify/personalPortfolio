@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79ba7b7f66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = "header" id="header">
+        <div class = "cont">
+            <nav>
+                <p class="logo"><span style="color:aqua"><strong>S</strong></span>tubh.</p>
+                <ul class = "nav_list">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <a href = "#" class="fas" id="close_button">Portfolio</a>
+                </ul>
+                <a href = "#" class="fas" id="menu_button">Portfolio</a>
+            </nav>
+            <div class = "main-text">
+                <p>4th year B.Tech student at <a href="http://nsut.ac.in/" style="text-decoration: none;">Netaji Subhas University of Technology.</a> </p>
+                <h1>Hi, I'm <span style="color: aliceblue;">Stubh Lal.</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class = "cont">
+            <div class = "row">
+                <div class = "about_images">
+                    <img src = "images/user.png">
+                </div>
+                <div class = "about_text">
+                    <h1 class>About Me</h1>
+                    <p class="desc">I'm a 4th year undergrad from Delhi currently pursuing a Bachelors in Technology from NSUT, Delhi. I'm extremely interested in various facets of computer science, and my 
+                        current focus is on Machine Learning and Neural Networks. I'm also interested in literature and public-speaking, having been active in the Delhi Debating and Public-Speaking 
+                        circuits for over 7 years. <br><br>
+                        Over the course of my education, I've been put in several positions of responsibility, including being the Head of my school's Student Council in my final
+                        year and the Head of the Debating Club the year prior. I'm currently the President of NSUT's Debating Society. 
+                    </p>
+                    <div class = "about_bar">
+                        <p class = "about_links active_link" value="skills">Skills</p>
+                        <p class = "about_links" value="edu">Education</p>
+                        <p class = "about_links" value="extra">Achievements</p>
+                    </div>
+                    <div class="about_link_content active_content" id="skills">
+                        <ul>
+                            <li><i class="fa-solid fa-code"></i><span style="font-size: 20px;">    Python/C++</span><br>Programming Languages.</li>
+                            <li><i class="fa-solid fa-code"></i><span style="font-size: 20px;">     HTML/CSS</span><br>Web Development.</li>
+                            <li><i class="fa-solid fa-code"></i><span style="font-size: 20px;">     JavaScript</span><br>Programming Language and Web Development.</li>
+                            <li><i class="fa-solid fa-database"></i><span style="font-size: 20px;">     SQL/MySQL</span><br>Databse management.</li>
+                            <li><i class="fa-solid fa-database"></i><span style="font-size: 20px;">     MongoDB</span><br>NoSQL Databse management.</li>
+                            <li><i class="fa-brands fa-github"></i><span style="font-size: 20px;">     Git/Github</span><br>Project hosting and management.</li>
+                            <li><i class="fa-solid fa-book-open-reader"></i><span style="font-size: 20px;">     Public-Speaking/Debating</span><br>Oratory, Communication and Leadership.</li>
+                        </ul>
+                    </div>
+                    <div class="about_link_content" id="edu">
+                        <ul>
+                            <li><i class="fa-solid fa-timeline fa-rotate-270"></i></i><span style="font-size: 20px;">  2006-07</span><br>Bombay Scottish School, Mumbai.</li>
+                            <li><i class="fa-solid fa-timeline fa-rotate-270"></i></i><span style="font-size: 20px;">  2007-19</span><br>Sri Venkateshwara Intl. School. Gratuaded 2019.</li>
+                            <li><i class="fa-solid fa-timeline fa-rotate-270"></i></i><span style="font-size: 20px;">  2020-24</span><br>Netaji Subhas University of Technology, Delhi. Bachelors in Technology.</li>
+                        </ul>
+                    </div>
+                    <div class="about_link_content" id="extra">
+                        <ul>
+                            <li><i class="fa-solid fa-code"></i><span style="font-size: 20px;">    Codechef</span><br>Peak Rating of 1802, 4-star rank.</li>
+                            <li><i class="fa-solid fa-code"></i><span style="font-size: 20px;">    Leetcode</span><br>Nearly 500 questions solved.</li>
+                            <li><i class="fa-solid fa-book-open-reader"></i><span style="font-size: 20px;">     TOI Student Journalist, 2017</span><br>One of a few students chosen from across India.</li>
+                            <li><i class="fa-solid fa-book-open-reader"></i><span style="font-size: 20px;">     Winner, MahaBehes 2018</span><br>All-India Debating Championship.</li>
+                            <li><i class="fa-solid fa-book-open-reader"></i><span style="font-size: 20px;">     Organizing Committee, Colloquium 2022</span><br>Delhi's first offline debating fest post-pandemic, with a footfall of
+                            over 300 participants.</li>
+                            <li><i class="fa-solid fa-book-open-reader"></i><span style="font-size: 20px;">     Core Committee, Colloquium 2023</span><br>Offline Debating fest featuring over 50+ colleges and over 400 people.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr><br><hr>
+
+    <div class="portfolio" id="portfolio">
+        <div class="cont">
+            <h1 class="port_head">My Work</h1>
+            <p>Projects I've worked on.</p>
+            <div class="work_list">
+                <div class="proj">
+                    <img src="images/work-1.png">
+                    <div class="proj_layer">
+                        <h3>Basic Neural Networks, a Python Library</h3>
+                        <p>Implements 3 basic types of neural nets: Backpropogation, Adaptive Linear Neurons and
+                            Perceptrons from scratch.</p>
+                            <a href="https://github.com/Artshouldterrify/bNN"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/work-2.png">
+                    <div class="proj_layer">
+                        <h3>Finding stable planetary orbits in a 2-D Solar System Simulation</h3>
+                        <p>  Uses the turtle and tinkerer libraries to implement a visual, 2-D simulated animation of an arbitrary Solar
+                            System. </p>
+                        <a href="https://github.com/Artshouldterrify/solarSystem"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/work-3.png">
+                    <div class="proj_layer">
+                        <h3>E-Commerce App</h3>
+                        <p>Simple E-commerce app built using the MERN stack.</p>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr><br><hr>
+
+    <div class="contact" id="contact">
+        <div class="cont">
+            <div class="row">
+                <div class="contact_info">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>  <a href="mailto: stubh.lal@gmail.com" style="text-decoration: none; color:gray">stubh.lal@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i>  +91-9910410444</p>
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Resume_StubhLal.pdf" class="btn btn2"><strong>Download Resume.</strong></a>
+                </div>
+                <div class="contact_form">
+                    <form>
+                        <input type="text" name=" name" placeholder="Your Name." required>
+                        <input type="email" name="email" placeholder="Your Email." required>
+                        <textarea name="msg" rows="6" placeholder="Your message."></textarea>
+                        <button type="submit" class="btn"><strong>Send</strong></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright <i class="fa-solid fa-copyright"></i>  Stubh Lal, 2022.</p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
